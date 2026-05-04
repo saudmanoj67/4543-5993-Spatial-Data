@@ -13,20 +13,28 @@ x = 10
 print(type(x))
 ```
 
-`Answer:` _______________________
+`Answer:` <class 'int'>_______________________
 
 2. What scalar type would best represent:
-   - A person's name: _______
-   - Their age: _______
-   - Whether they passed a test: _______
+   - A person's name: _str______
+   - Their age: _int______
+   - Whether they passed a test: _bool______
 
 ---
 
 ### ✏️ Task: Type Practice
 
 ```python
-# Create a variable for each type and print its value and type
-# Example: an int, float, str, and bool
+age = 24
+height = 5.7
+c = "Manoj"
+d = True
+
+print(a, type(a))
+print(b, type(b))
+print(c, type(c))
+print(d, type(d))
+
 ```
 
 ---
@@ -35,7 +43,7 @@ print(type(x))
 
 3. What does the `!=` operator mean?
 
-`Answer:` _______________________
+`Answer:` _not equal to______________________
 
 4. What will the following code print?
 
@@ -45,7 +53,7 @@ b = 3
 print(a < b or b < 10)
 ```
 
-`Answer:` _______________________
+`Answer:` _True______________________
 
 ---
 
@@ -54,12 +62,17 @@ print(a < b or b < 10)
 5. Write a conditional that prints "Pass" if a grade is >= 70, and "Fail" otherwise.
 
 ```python
-# Your code:
+
+if grade >= 70:
+    print("Pass")
+else:
+    print("Fail")
+
 ```
 
 6. What does `elif` allow you to do?
 
-`Answer:` _______________________
+`Answer:` it allows us to check multiple conditions after an if statement_______________________
 
 ---
 
@@ -69,3 +82,13 @@ Write a program that asks for the weather and prints:
 - "Bring sunscreen" if it's sunny
 - "Take an umbrella" if it's raining
 - "Check the forecast" otherwise
+
+```python
+weather = input("Enter weather: ")
+if weather == "sunny":
+    print("Bring sunscreen")
+elif weather == "raining":
+    print("Take an umbrella")
+else:
+    print("Check the forecast")
+```
