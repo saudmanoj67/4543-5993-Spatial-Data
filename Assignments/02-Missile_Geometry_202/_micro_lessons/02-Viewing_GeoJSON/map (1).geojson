@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"Name":"Wichita falls"},"geometry":{"coordinates":[-98.49358342698379,33.89760433827405],"type":"Point"},"id":0},{"type":"Feature","properties":{},"geometry":{"coordinates":[[-98.49680487968465,33.906307428895204],[-98.49236074461382,33.90152024939995]],"type":"LineString"}}]}
