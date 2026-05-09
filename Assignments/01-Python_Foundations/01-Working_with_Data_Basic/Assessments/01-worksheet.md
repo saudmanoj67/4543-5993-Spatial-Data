@@ -102,6 +102,6 @@ print(nums)
 
 ## 🧾 Submit Checklist
 
-- [ ] I practiced creating and modifying lists.
-- [ ] I understand how tuples are different from lists.
-- [ ] I accessed and looped through dictionary items.
+- [X] I practiced creating and modifying lists.
+- [X] I understand how tuples are different from lists.
+- [X] I accessed and looped through dictionary items.
